@@ -1,6 +1,10 @@
 <!--https://www.color-hex.com/color-palette/90261-->
 <!--remove.bg-->
 <!--freepik-->
+<!--https://codepen.io/chrisgannon/pen/EjVyXN-->
+<!--astro animate-->
+<!--https://codepen.io/HamishMW/pen/XJogMg-->
+<!--mail sent anim-->
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="css/main.css">

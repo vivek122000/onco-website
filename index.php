@@ -15,15 +15,24 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Contact</a>
+                </li>
+            </ul>
+
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <button type="button" class="nav-link btn btn-primary btn-lg">&nbsp;&nbsp;&nbsp;&nbsp;SIGN UP&nbsp;&nbsp;&nbsp;&nbsp;</button>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                <li class="nav-item active">
+                    <button type="button" class="nav-link btn btn-primary btn-lg">&nbsp;&nbsp;&nbsp;&nbsp;SIGN IN&nbsp;&nbsp;&nbsp;&nbsp;</button>
                 </li>
             </ul>
         </div>
@@ -36,10 +45,10 @@
         <div class="row">
             <div class="col-md-6">
                 <p class="banner-title">YOUR COLLEGEMATE</p>
-                <p>EK BHOT HE GAZAB LINE DALNEGE, PDHKE MAZZA HE AA JAYEGA BHAI!</p>
+                <p class="banner-subheading">EK BHOT HE GAZAB LINE DALNEGE, PDHKE MAZZA HE AA JAYEGA BHAI!</p>
             </div>
             <div class="col-md-6 text-center">
-                <img src="images/banner.png" class="img-fluid">
+                <img src="resources/img/banner.png" class="img-fluid">
             </div>
         </div>
     </div>
@@ -53,6 +62,15 @@
     </svg>
 </section>
 
-<?php include("footer.php");?>
+<div class="container demo">
+    <div class="content">
+        <div id="large-header" class="large-header">
+            <canvas id="demo-canvas"></canvas>
+            <h1 class="main-title"><span class="thin">Explore</span> Space</h1>
+        </div>
+    </div>
+</div>
+
+<?php include("footer.php"); ?>
 </body>
 </html>
