@@ -21,7 +21,7 @@ body, html {
 }
 
 .navbar {
-    background-image: linear-gradient(to right, #2570b8, #0959a7);
+    background-image: linear-gradient(to right, #fb1751, #ff004d);
     padding: 0 !important;
 }
 
@@ -30,22 +30,29 @@ body, html {
 }
 
 .navbar-nav li a {
-    font-size: 1.25rem;
-    color: #fff !important;
-    font-weight: 500;
+    font-size: 1.5rem !important;
+    color: #eeeeee !important;
+    font-weight: 700;
     float: right;
     text-align: left;
 }
 
+.navbar-nav li a:hover {
+    color: #333333 !important;
+}
+
 .navbar-nav li button {
-    font-size: 1.25rem;
-    color: #fff !important;
-    background: #022a50;
-    border-radius: 22%;
-    border: none;
-    font-weight: 500;
+    font-size: 1.25rem !important;
+    color: #f6004b !important;
+    background: #333333;
+    font-weight: 700;
     float: right;
     text-align: left;
+    margin-top: 5% !important;
+}
+
+.navbar-nav li button:hover {
+    color: #fff !important;
 }
 
 .navbar-nav li button:hover {
@@ -57,18 +64,19 @@ body, html {
 }
 
 .fa-bars {
-    color: #fff;
+    color: #eeeeee;
     font-size: 1.6rem !important;
 }
+
 .banner {
-    background-image: linear-gradient(to right, #2570b8, #0959a7);
-    color: #fff;
+    background-image: linear-gradient(to right, #fb1751, #ff004d);
+    color: #333333;
     padding: 3% 3% 0;
 }
 
 
 .banner-svg svg {
-    background-image: linear-gradient(to right, #2570b8, #0959a7);
+    background-image: linear-gradient(to right, #fb1751, #ff004d);
     width: 100%;
     padding: 0 !important;
 }
@@ -79,17 +87,103 @@ body, html {
 }
 
 .banner-title {
-    font-size: 2.2rem;
+    font-size: 3rem;
     font-weight: 900;
     margin-top: 8%;
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
-.banner-subheading {
+.banner-subheading-1,
+.banner-subheading-2,
+.banner-subheading-3 {
+    position: absolute;
+    width: 80%;
     padding: 0.5rem;
-    font-size: 1.4rem;
+    font-size: 2rem !important;
     font-weight: 400;
+    animation-duration: 30s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
+.banner-subheading-1 {
+    animation-name: banner-subheading-anim-1;
+}
 
+.banner-subheading-2 {
+    animation-name: banner-subheading-anim-2;
+}
+
+.banner-subheading-3 {
+    animation-name: banner-subheading-anim-3;
+}
+
+@keyframes banner-subheading-anim-1 {
+    0%, 8.3% {
+        left: -100%;
+        opacity: 0;
+    }
+    8.3%, 25% {
+        left: 0;
+        opacity: 1;
+    }
+    33.33%, 100% {
+        left: 110%;
+        opacity: 0;
+    }
+}
+
+@keyframes banner-subheading-anim-2 {
+    0%, 33.33% {
+        left: -100%;
+        opacity: 0;
+    }
+    41.63%, 58.29% {
+        left: 0;
+        opacity: 1;
+    }
+    66.66%, 100% {
+        left: 110%;
+        opacity: 0;
+    }
+}
+
+@keyframes banner-subheading-anim-3 {
+    0%, 66.66% {
+        left: -100%;
+        opacity: 0;
+    }
+    74.96%, 91.62% {
+        left: 0;
+        opacity: 1;
+    }
+    100% {
+        left: 110%;
+        opacity: 0;
+    }
+}
+
+.pink-color {
+    color: #f6004b !important;
+}
+
+.round-button {
+    border-radius: 20px !important;
+}
+
+.h1 {
+    color: #f6004b;
+    font-size: 6rem;
+}
+
+.ui.modal,
+.ui.active.modal {
+    margin: 0 auto!important;
+    top: auto !important;
+    bottom: auto !important;
+}
+
+.bigger {
+    font-size: 1.75rem !important;
+}

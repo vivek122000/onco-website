@@ -29,10 +29,10 @@
 
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <button type="button" class="nav-link btn btn-primary btn-lg">&nbsp;&nbsp;&nbsp;&nbsp;SIGN UP&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                    <button id="sign-up-button" class="ui black button round-button">SIGN UP</button>
                 </li>
                 <li class="nav-item active">
-                    <button type="button" class="nav-link btn btn-primary btn-lg">&nbsp;&nbsp;&nbsp;&nbsp;SIGN IN&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                    <button id="sign-in-button" class="ui black button round-button">SIGN IN</button>
                 </li>
             </ul>
         </div>
@@ -45,7 +45,22 @@
         <div class="row">
             <div class="col-md-6">
                 <p class="banner-title">YOUR COLLEGEMATE</p>
-                <p class="banner-subheading">EK BHOT HE GAZAB LINE DALNEGE, PDHKE MAZZA HE AA JAYEGA BHAI!</p>
+                <br>
+                <p class="banner-subheading-1">This is your last chance. After this, there is no turning
+                    back.This is your last chance. After this, there is no turning
+                    back.This is your last chance. After this, there is no turning
+                    back.This is your last chance. After this, there is no turning
+                    back.</p>
+                <p class="banner-subheading-2">You take the blue pill - the story ends, you wake up in your bed
+                    and
+                    believe whatever you want to believe.You take the blue pill - the story ends, you wake up in your bed
+                    and
+                    believe whatever you want to believe.</p>
+                <p class="banner-subheading-3">You take the red pill - you stay in Wonderland and I show you how
+                    deep
+                    the rabbit-hole goes.You take the red pill - you stay in Wonderland and I show you how
+                    deep
+                    the rabbit-hole goes.</p>
             </div>
             <div class="col-md-6 text-center">
                 <img src="resources/img/banner.png" class="img-fluid">
@@ -62,14 +77,71 @@
     </svg>
 </section>
 
-<div class="container demo">
-    <div class="content">
-        <div id="large-header" class="large-header">
-            <canvas id="demo-canvas"></canvas>
-            <h1 class="main-title"><span class="thin">Explore</span> Space</h1>
+
+<div class="container">
+
+    <h1 class="h1 text-center">What we do?</h1>
+    <br>
+    <div class="ui link cards">
+
+        <div class="ui centered card">
+            <div class="image">
+                <img src="resources/img/classroom_teacher.png">
+            </div>
+            <div class="content">
+                <div class="header">Online Classroom</div>
+                <div class="meta">
+                    <a>Friends</a>
+                </div>
+                <div class="description">
+                    Matthew is an interior designer living in New York.
+                </div>
+            </div>
+            <div class="extra content">
+                <button id="classroom-modal-button" class="ui pink-color button">Know More</button>
+            </div>
+        </div>
+
+        <div class="ui centered card">
+            <div class="image">
+                <img src="resources/img/unite.png">
+            </div>
+            <div class="content">
+                <div class="header">Unite Together</div>
+                <div class="meta">
+                    <span class="date">Coworker</span>
+                </div>
+                <div class="description">
+                    Molly is a personal assistant living in Paris.
+                </div>
+            </div>
+            <div class="extra content">
+                <button id="unite-modal-button" class="ui pink-color button">Know More</button>
+            </div>
+        </div>
+
+        <div class="ui centered card">
+            <div class="image">
+                <img src="resources/img/community.jpg">
+            </div>
+            <div class="content">
+                <div class="header">Community</div>
+                <div class="meta">
+                    <a>Coworker</a>
+                </div>
+                <div class="description">
+                    Elyse is a copywriter working in New York.
+                </div>
+            </div>
+            <div class="extra content">
+                <button id="community-modal-button" class="ui pink-color button">Know More</button>
+            </div>
         </div>
     </div>
 </div>
+
+
+<?php include("modal.php"); ?>
 
 <?php include("footer.php"); ?>
 </body>
