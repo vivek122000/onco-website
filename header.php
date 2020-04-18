@@ -1,16 +1,10 @@
-<!--https://www.color-hex.com/color-palette/90261-->
-<!--https://www.color-hex.com/color-palette/90000-->
-<!--https://www.color-hex.com/color-palette/5016-->
 <!--https://www.color-hex.com/color-palette/75043-->
 <!--remove.bg-->
 <!--freepik-->
-<!--https://codepen.io/chrisgannon/pen/EjVyXN-->
-<!--astro animate-->
 <!--https://codepen.io/HamishMW/pen/XJogMg-->
 <!--mail sent anim-->
-<!--https://codepen.io/shshaw/pen/DxJka-->
-<!--https://codepen.io/saransh/pen/BKJun-->
-<!--parallax-->
+<!--https://codepen.io/kayandra/pen/bqKZXN-->
+<!--jessica jones anim-->
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">

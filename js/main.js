@@ -1,24 +1,23 @@
 $("#classroom-modal-button").click(function () {
-    $('#classroom-modal')
-        .modal('show');
+    showModal("#classroom-modal");
 });
 
 $("#unite-modal-button").click(function () {
-    $('#unite-modal')
-        .modal('show');
+    showModal("#unite-modal");
 });
 
 $("#community-modal-button").click(function () {
-    $('#community-modal')
-        .modal('show');
+    showModal("#community-modal");
 });
 
 $("#sign-up-button").click(function () {
-    $('#sign-up-modal')
-        .modal('show');
+    showModal("#sign-up-modal");
 });
 
 $("#sign-in-button").click(function () {
-    $('#sign-in-modal')
-        .modal('show');
+    showModal("#sign-in-modal");
 });
+
+function showModal(selector) {
+    $(selector).modal('show');
+}
